@@ -20,7 +20,7 @@ Describe how to install all development dependencies and how to run an automated
 ## Meta
 
 Lucas Nogueira Nobrega – lucasnnobrega@gmail.com
-Thales Monteiro da Silva – thales
+Thales Monteiro Soares – thales.monteiro@eng.ci.ufpb
 
 ## Contributing
 
