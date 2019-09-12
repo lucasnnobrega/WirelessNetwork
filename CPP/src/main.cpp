@@ -11,6 +11,7 @@
 
 #include "../include/read_write.h"
 #include "../include/argparser.hpp"
+#include "../include/funcDistancia.hpp"
 
 using namespace std;
 
@@ -33,6 +34,7 @@ int main(int argc, const char **argv)
     cout << GREEN << "\n\nInside the main function" << RESET << endl;
     cout << "  verbose:            " << verbose << endl;
     cout << "  ator:            " << ator << endl;
+    cout << "Alcance: " << alcance(1, 1, 3, 2, 2) << endl;
 
     return 0;
 }

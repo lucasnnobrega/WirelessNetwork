@@ -1,12 +1,28 @@
-#include "./include/No.hpp"
+#include "../include/No.hpp"
 
-No::No(int id, int tamanho, int x, int y);
+No::No(int id, int tamanho, int x, int y)
+{
+    /*
+    self._id = id
+    #Adds a si mesmo na lista global de nós
+    nos.append(self)
+    self._camadaRede = CamadaRede(CamadaEnlace(CamadaFisica(x, y, id, tamanho)))
+    */
+}
+
+No::~No()
 {
 }
 
-No::~No();
+void No::criarPacote(int duracao, int macDestino, std::string mensagem)
 {
+    /*
+    self._camadaRede.addPacote(macDestino, mensagem, duracao)
+    self.exibePacote(self._camadaRede._camadaEnlace._camadaFisica._id, macDestino, mensagem)
+    */
 }
 
-void No::criarPacote(int duracao, int macDestino, std::string mensagem);
-void No::exibePacote(int macDestino, int id, int mensagem);
+void No::exibePacote(int macDestino, int id, int mensagem)
+{
+    //print("Pacote criado \n Destino:", macDestino, "\n ID: ", id, "\nMensagem:", mensagem)
+}
