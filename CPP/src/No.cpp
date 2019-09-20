@@ -25,4 +25,11 @@ void No::criarPacote(int duracao, int macDestino, std::string mensagem)
 void No::exibePacote(int macDestino, int id, int mensagem)
 {
     //print("Pacote criado \n Destino:", macDestino, "\n ID: ", id, "\nMensagem:", mensagem)
+    std::cout << "id: " << id << endl;
+    std::cout << "tamanho: " << tamanho << endl;
+    std::cout << "x: " << x << endl;
+    std::cout << "y: " << y << endl;
+    std::cout << "duracao: " << duracao << endl;
+    std::cout << "macDestino: " << macDestino << endl;
+    std::cout << "mensagem: " << mensagem << endl;
 }
