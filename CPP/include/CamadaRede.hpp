@@ -3,7 +3,7 @@
 
 class CamadaRede
 {
-private:
+protected:
     /* data */
 public:
     CamadaRede(/* args */);

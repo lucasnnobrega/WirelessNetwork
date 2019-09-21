@@ -5,7 +5,7 @@
 
 class No
 {
-private:
+protected:
     int id;
     int tamanho;
     int x;

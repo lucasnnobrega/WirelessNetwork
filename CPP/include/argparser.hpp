@@ -41,7 +41,7 @@ typedef std::map<std::string, size_t> IndexMap;
  */
 class ArgumentParser
 {
-private:
+protected:
     class Any;
     class Argument;
     class PlaceHolder;
@@ -105,7 +105,7 @@ private:
             return *toPtr<ValueType>();
         }
 
-    private:
+    protected:
         // Inner placeholder interface
         class PlaceHolder
         {

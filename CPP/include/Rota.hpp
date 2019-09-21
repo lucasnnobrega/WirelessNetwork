@@ -3,7 +3,7 @@
 
 class Rota
 {
-private:
+protected:
     /* data */
 public:
     Rota(int destino, int sequencia);

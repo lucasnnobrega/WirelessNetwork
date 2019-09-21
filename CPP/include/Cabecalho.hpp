@@ -6,7 +6,7 @@
 
 class Cabecalho
 {
-private:
+protected:
     std::string camada = "";
     int macOrigem = 0;
     int macDestino = 0;
